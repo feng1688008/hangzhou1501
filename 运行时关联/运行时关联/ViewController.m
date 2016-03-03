@@ -24,7 +24,7 @@ static char overviewKey;
     //将一个字符串关联到数组上
     NSArray *array = [[NSArray alloc]initWithObjects:@"One",@"Two",@"Three", nil];
     
-    //为了演示的目的，这里使用initWithFormat:来确保字符串可以被销毁
+    //111为了演示的目的，这里使用initWithFormat:来确保字符串可以被销毁
     NSString * overview = [[NSString alloc] initWithFormat:@"%@",@"First three numbers"];
     
     //源对象,关键字,被关联的对象,关联策略
